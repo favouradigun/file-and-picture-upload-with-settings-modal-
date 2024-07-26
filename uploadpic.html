@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="uploadpic.css">
+    <title>Upload pic</title>
+   
+</head>
+<body>
+    
+    
+    <div class="hero" > 
+        <label for="input-file"  id="drop-area" >
+   <input type="file" accept="image/*" id="input-file" hidden>    <!--   for this feature to work you need to remove the hidden attribute beside,
+     cause the icons are not there so if you click on upload file it wont refer you to the file explorer , but if you remove the hidden feature it will be visible , after inserting 
+     the icons you can now click on it and it will refer you to it  -->
+      
+    <div id="img-view" >
+        <img src="upload icon.png" alt="">
+        <p>Drag and drop or click here <b>to upload image</b></p>
+        <span> upload any image from desktop
+            <br>Preferable Dimensions of 1102 x 622
+        </span>
+    </div>
+
+        </label>
+     </div>
+    <script src="uploadpic.js"></script>
+</body>
+</html>
